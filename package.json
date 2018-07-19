@@ -1,0 +1,42 @@
+{
+  "name": "@rula/passport-cas",
+  "version": "1.0.0",
+  "description": "A Passport authentication strategy that works with the Central Authentication Service (CAS) single sign-on protocol.",
+  "main": "lib/",
+  "scripts": {
+    "publish": "git push origin --tags && git push origin",
+    "release.pre": "npm version prerelease && npm publish --tag pre --access public",
+    "release.patch": "npm version patch && npm publish --access public",
+    "release.minor": "npm version minor && npm publish --access public",
+    "release.major": "npm version major && npm publish --access public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cas",
+    "auth",
+    "authentication",
+    "passport",
+    "rula"
+  ],
+  "author": "Ryerson University Library",
+  "contributors": [
+    "David Quast <dquast@ryerson.ca>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryersonlibrary/passport-cas/issues"
+  },
+  "dependencies": {
+    "https": "^1.0.0",
+    "node-uuid": "^1.4.8",
+    "passport-strategy": "^1.0.0",
+    "url": "^0.11.0",
+    "util": "^0.11.0",
+    "xml2js": "^0.4.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryersonlibrary/passport-cas.git"
+  },
+  "homepage": "https://github.com/ryersonlibrary/passport-cas#readme"
+}

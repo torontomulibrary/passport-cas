@@ -1,6 +1,6 @@
 {
   "name": "@rula/passport-cas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Passport authentication strategy that works with the Central Authentication Service (CAS) single sign-on protocol.",
   "main": "lib/",
   "scripts": {

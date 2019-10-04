@@ -15,7 +15,7 @@ Minimum configuration requires the CAS url and service parameters to be defined.
 ```
 passport.use(new (require('passport-cas').Strategy) ({
   casUrl: 'http://cas.example.com',
-  serviveUrl: `http://localhost:3000'
+  serviceUrl: `http://localhost:3000'
 }, function(req, user, done) {
   User.findOne({username: user.username}, function(err, user) {
     if (err) {

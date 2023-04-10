@@ -32,7 +32,7 @@
     "passport-strategy": "^1.0.0",
     "url": "^0.11.0",
     "util": "^0.11.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.5.0"
   },
   "repository": {
     "type": "git",
